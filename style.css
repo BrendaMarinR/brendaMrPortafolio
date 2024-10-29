@@ -1,0 +1,316 @@
+:root{
+ 
+
+  /* paleta de colores principales */
+  --background-bren:hsl(40,26%,95%) ;
+  --color-text:hsl(0,0,5%);
+
+  /* paleta de colores cta */
+  --color-button-sky:hsl(328,100%,80%);
+  --color-button-background:hsl(258,100%,80%);
+
+
+
+/* estilos de fuentes */
+--font-family-title:"Major Mono Display", monospace;
+--font-family-text:"Lexend Deca", sans-serif ;
+--font-size:1em;
+--font-line-height:1.5;
+
+--title-size-h1:6em;
+--title-size-h2:4.5em;
+--title-size-h3:2em;
+
+--body-text-size:1.4em;
+
+--title-size-h1-movile:3em;
+--title-size-h2-movile:2em;
+--title-size-h3-movile:1.5em;
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+}
+
+
+
+
+
+body{
+  background-color: var(--background-bren)!important;
+  font-family: var(--font-family-text)!important;
+  line-height: var(--font-line-heigh)!important;
+
+}
+h1{
+  font-family:var(--font-family-title)!important;
+  font-weight: 400;
+  font-size: var(--title-size-h1);
+}
+h2{
+  font-family:var(--font-family-title);
+  font-weight: 400;
+  font-size: var(--title-size-h2)!important;
+}
+h3{
+  font-family:var(--font-family-title);
+  font-weight: 400;
+  font-size: var(--title-size-h3);
+}
+b{
+  font-size: 1.6em;
+}
+
+
+footer{
+  background-color:var(--color-button-background);
+  width: 100%;
+}
+
+/* estilos de navegacion */
+.navbar{
+  display: inline-block;
+}
+
+ .navbar-nav .navbar-center{
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  padding: 2%;
+  background-color:var(--background-bren);
+
+
+ }
+.nav-link{
+  font-size: 1.4em;
+  
+  color:var(--color-text) !important;
+  float: left;
+
+}
+.nav-link:hover{
+  border: var(--color-text) 2px ;
+  border-radius: 2%; 
+
+  box-shadow: rgba(0, 0, 0, 1) 9px 9px;
+
+}
+
+
+
+/* estilo de boton ir al cielo */
+
+
+.goSky{
+display:block;
+padding: 20px;
+border: #0d0d0d solid 2px !important;
+border-radius: 8%!important; 
+background-color:var(--color-button-sky);
+font-size: 25px;
+cursor: pointer;
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 1001;
+
+}
+.goSky:hover{
+  border:#0d0d0d solid 2px!important;
+border-radius: 8%; 
+
+box-shadow: rgba(0, 0, 0, 1) -9px 9px;
+}
+
+/* FIN estilo de boton ir al cielo */
+.presentacion{
+  
+    display: block;
+    text-align: center;
+    padding: 20px;
+    /* padding-top: 15%; */
+}
+.intro{
+    font-size: 1.4em;
+    line-height:2em ;
+
+
+}
+
+.boton{
+  /* display: none; */
+  color: var(--color-text) !important;;
+  border: var(--color-text) solid 2px !important  ;
+  width: 263px;
+  height: 42px; 
+  cursor: pointer;
+  background-color: var(--color-button-background)!important;
+
+  
+}
+.boton:hover{
+  /* background: #8AECFF !important; */
+  border:#0d0d0d solid 2px !important;
+ 
+
+  box-shadow: rgba(0, 0, 0, 1) 10px 10px;
+
+}
+
+.happy{
+  position: absolute;
+  left: 15%!important;
+  top:25% !important;
+  padding: 20px;
+  min-width: 169px;
+  min-height: 290px;
+}
+.estrellaUno{
+  position: absolute;
+  right: 15%;
+  top:10%;
+}
+
+.estrellaUno:hover{
+ transform: scale(1.5);
+
+ 
+
+}
+
+
+
+/* section about style */
+
+
+
+.about{
+  margin-top: 25%;
+}
+
+.brenda{
+ 
+padding: 10%;
+ 
+
+
+
+
+  /* border: #0D0D0D solid 1px; */
+  /* position: calc(35,0); */
+}
+
+.carta2{
+  background: var(--background-bren)!important;
+  border: #0d0d0d solid 2px !important;
+  /* border-radius: 0%!important; */
+
+  box-shadow: rgba(0, 0, 0, 1) -15px 15px;
+
+}
+
+.texto02{
+  font-size: 1.2em;
+  line-height: 1.6em;
+  padding: 2%;
+  margin: 10%;
+}
+
+
+/* selccion portafolio */
+
+.contenidoSlide{
+  align-self: center!important;
+  padding: 5% !important;
+  margin: 5%!important;
+}
+
+.carta{
+  background: var(--background-bren)!important;
+  border: #0d0d0d solid 2px !important;
+  /* border-radius: 0%!important; */
+
+  box-shadow: rgba(0, 0, 0, 1) -15px 15px;
+align-items: center;
+
+}
+.modal-header {
+  background-color: var(--background-bren)!important;
+}
+.modal-body{
+  background-color: var(--background-bren)!important;
+}
+/* .carousel-control-prev-icon .carousel-control-next-icon {
+  filter: invert(108%) !important;
+  
+} */
+
+
+/* estilos version móvil 26062024 */
+
+.card-mobile{
+  width: 100vw;
+  height: auto;
+}
+
+
+
+/* media query */
+
+@media screen and (min-width:400px ){
+ 
+  h1{
+    font-size: var(--title-size-h1-movile)!important;
+  }
+  h2{
+    font-size: var(--title-size-h2-movile)!important;
+  }
+
+
+  .happy{
+    position: absolute;
+    left: 5%!important;
+    top:85%;
+    padding: 20px;
+    min-width: 169px;
+    min-height: 290px;
+  }
+  .estrellaUno{
+    position: absolute;
+    right: 15%;
+    top:10%;
+  }
+  .brenda{
+ 
+    padding: 18%;
+     
+    
+    
+    
+    
+      /* border: #0D0D0D solid 1px; */
+      /* position: calc(35,0); */
+    }
+
+    
+} 
+@media screen and (min-width:900) {
+  .brenda{
+ 
+    padding: 2%;
+     
+    
+    
+    
+    
+      /* border: #0D0D0D solid 1px; */
+      /* position: calc(35,0); */
+    }
+  .card{
+    width: 15rem; height:auto ;padding: 0.5rem;
+  }
+}

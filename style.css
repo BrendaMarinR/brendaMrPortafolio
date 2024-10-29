@@ -23,9 +23,9 @@
 
 --body-text-size:1.4em;
 
---title-size-h1-movile:3em;
+/* --title-size-h1-movile:3em;
 --title-size-h2-movile:2em;
---title-size-h3-movile:1.5em;
+--title-size-h3-movile:1.5em; */
 
 html {
   box-sizing: border-box;
@@ -264,10 +264,10 @@ align-items: center;
 @media screen and (min-width:400px ){
  
   h1{
-    font-size: var(--title-size-h1-movile)!important;
+    font-size: var(--title-size-h2)!important;
   }
   h2{
-    font-size: var(--title-size-h2-movile)!important;
+    font-size: var(--title-size-h3)!important;
   }
 
 

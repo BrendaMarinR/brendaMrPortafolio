@@ -261,7 +261,10 @@ align-items: center;
 
 /* media query */
 
-@media screen and (min-width:400px ){
+@media screen and (min-width:300px ){
+  body{
+    place-items: center;
+  }
  
   h1{
     font-size: 2em!important;

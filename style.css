@@ -44,6 +44,7 @@ body{
   background-color: var(--background-bren)!important;
   font-family: var(--font-family-text)!important;
   line-height: var(--font-line-heigh)!important;
+  
 
 }
 h1{
@@ -262,9 +263,7 @@ align-items: center;
 /* media query */
 
 @media screen and (min-width:300px ){
-  body{
-    place-items: center;
-  }
+ 
  
   h1{
     font-size: 2em!important;
